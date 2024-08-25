@@ -15,10 +15,6 @@
     }
 }
 
-/* #1F1C2F
-#353344
-#4c4959 */
-
 nav {
     background-color: #1F1C2F;
     position: fixed;
@@ -54,72 +50,40 @@ nav {
     }
 }
 
-header {
-    width: 100vw;
-    height: 100vh;
-    color: #e8eef8;
-    display: flex;
-    flex-direction: row;
 
-    .content {
-        padding: 20%;
-        
-
-        h1, span {
-            font-size: 2.5rem;
-            padding-bottom: 5%;
-            text-wrap: nowrap;
-            width: 10%;
-        }
-
-        h2, p {
-            padding-bottom: 2%;
-        }
-    
-        h1:hover {
-            font-style: italic;
-            color: #F98125;
-            font-size: 3rem;
-        }
-    
-        .start {
-            background-color: #F98125;
-            border: none;
-            height: 2.5rem;
-            width: 10rem;
-            border-radius: 10px;
-    
-            a {
-                color: #ffffff;
-                text-decoration: none;  
-            }
-        } 
-    
-        .start:hover {
-            background-color: #b14f04;
-        }
-        
-        a:hover {
-            font-size: 1rem;
-        } 
-    }
-
-   
-}
 
 main {
     background-color: #4c4959;
     color: #e8eef8;
     text-align: center;
+    padding: 10rem;
+
+    h1 {
+        font-size: 2.5rem;
+    }
 
     h2 {
-        font-size: 3rem;
+        font-size: 1.5rem;
         padding-bottom: 2%;
     }
 
-    h3 {
-        font-size: 2rem;
+    h3, p {
+        font-size: 1rem;
         padding-bottom: 2%; 
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+
+        img {
+            height: 25rem;
+            width: 25rem;
+            padding: 10px;
+        }
     }
 }
 
