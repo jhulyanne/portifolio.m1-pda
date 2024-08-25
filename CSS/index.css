@@ -177,6 +177,19 @@ main {
 
     #activities {
         
+
+
+
+        
+        .projectImg {
+            height: 15rem;
+            width: auto;
+        }
+
+        .projectImg:hover {
+            height: 20rem;
+            width: 40rem;
+        }
     }
 }
 
