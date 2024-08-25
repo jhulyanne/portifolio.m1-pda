@@ -5,11 +5,6 @@
     box-sizing: border-box;
     font-family: "Raleway";
 
-    .logo {
-        height: 80%;
-        width: auto;
-    }
-
     li {
         list-style: none;
         white-space: nowrap;
@@ -31,6 +26,11 @@ nav {
     height: 10vh;
     display: flex;
     justify-content: space-around;
+
+    .logo {
+        height: 80%;
+        width: auto;
+    }
 
     .navigation {
         display: flex;
@@ -111,6 +111,17 @@ main {
     background-color: #4c4959;
     color: #e8eef8;
     padding: 5%;
+    text-align: center;
+
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 2%;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding-bottom: 2%; 
+    }
   
 
     #aboutMe {
@@ -130,15 +141,6 @@ main {
     }
 
     #skills {
-        h2 {
-            font-size: 3rem;
-            padding-bottom: 2%;
-        }
-
-        h3 {
-            font-size: 2rem;
-            padding-bottom: 2%; 
-        }
 
         ul {
             display: flex;
@@ -156,6 +158,10 @@ main {
                 align-items: center;
                 text-align: center;
             }  
+
+            li:hover {
+                background-color: #b14f04;
+            }
             
             .skillsIcons {
                 width: 7rem;
@@ -164,103 +170,34 @@ main {
             }    
         }
 
-       
-    
-        
-
         #hard, #soft {
             padding-bottom: 10%;
         }
-
-
-
     }
 
-
-
-}
-
-
-
-
-/*
-
-main {
-    background-color: #505050;
-    
-
-    #aboutMe {
-
-
-        h2 {
-            padding-bottom: 5rem;
-        }
-
-        p {
-            padding-bottom: 10px;
-        }
+    #activities {
+        
     }
-
-
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas de tamanho igual 
-    grid-gap: 20px; /* Espaço entre os blocos 
-  }
-  
-  #skills h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .grid-container div {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  li img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  li p {
-    margin: 0;
-  }
-  
-
-
-
-
-
-
-
 
 footer {
     background-color: #0d0e10;
     height: 10rem;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     ul {
+        display: flex;
+        flex-direction: row;
         padding-left:  8rem;
-        gap: 50%;
+        gap: 20%;
+
+
+        button:hover {
+            background-color: #b14f04;
+        }
 
         button {
             background-color: #F98125;
@@ -270,19 +207,20 @@ footer {
             img {
                 height: 5rem;
                 width: auto;
-                padding: 10px;
+                padding: 10%;
             }
         }
     }
-
     .logo {
-        padding-right: 8rem;
+        height: 6rem;
+        width: auto;
     }
 }
-
+    
 #backToTop {
     border: none;
-    border-radius: 50%;
+    border-radius: 100%;
+    padding: 10px;
     position: fixed;
     bottom: 1rem;  
     right: 1rem;
@@ -295,21 +233,21 @@ footer {
 
 #backToTop:hover {
     background-color: #b14f04;
-} */
+} 
 
 
 @media (max-width: 800px) {
     
 
 
-#hard {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-}
+    #hard {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
 
-#soft {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-}
+    #soft {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
     
 }
