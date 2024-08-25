@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/icons/logo.svg">
     <link rel="stylesheet" href="../CSS/index.css">
     <title>Portifólio</title>
 </head>
 <body>
     <nav>
-        <a href="index.html"><img class="logo" src="../images/logo.svg" alt="Logo"></a>
+        <a href="index.html"><img class="logo" src="../images/icons/logo.svg" alt="Logo"></a>
         <ul class="navigation">
             <li class="aboutMe"><a href="#aboutMe">Sobre mim</a></li>
             <li class="skills"><a href="#skills">Habilidades</a></li>
@@ -37,19 +38,19 @@
               <div>
                 <h3>Técnicas</h3>
                 <ul id="hard">
-                  <li><img class="skillsIcons" src="../images/html5.svg" alt="HTML5"><p>HTML5</p></li>
-                  <li><img class="skillsIcons" src="../images/css3.svg" alt="CSS3"><p>CSS3</p></li>
-                  <li><img class="skillsIcons" src="../images/javascript.svg" alt="JavaScript"><p>JavaScript</p></li>
-                  <li><img class="skillsIcons" src="../images/eng.svg" alt="Inglês Avançado"><p>Inglês avançado</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/html5.svg" alt="HTML5"><p>HTML5</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/css3.svg" alt="CSS3"><p>CSS3</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/javascript.svg" alt="JavaScript"><p>JavaScript</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/eng.svg" alt="Inglês Avançado"><p>Inglês avançado</p></li>
                 </ul>
               </div>
               <div>
                 <h3>Socioemocionais</h3>
                 <ul id="soft">
-                  <li><img class="skillsIcons" src="../images/empathic-list.svg" alt="Escuta empática"><p>Escuta empática</p></li>
-                  <li><img class="skillsIcons" src="../images/self-know.svg" alt="Autoconhecimento"><p>Autoconhecimento</p></li>
-                  <li><img class="skillsIcons" src="../images/conflict-manag.svg" alt="Gestão de conflitos"><p>Gestão de conflitos</p></li>
-                  <li><img class="skillsIcons" src="../images/commun.svg" alt="Comunicação assertiva"><p>Comunicação assertiva</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/empathic-list.svg" alt="Escuta empática"><p>Escuta empática</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/self-know.svg" alt="Autoconhecimento"><p>Autoconhecimento</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/conflict-manag.svg" alt="Gestão de conflitos"><p>Gestão de conflitos</p></li>
+                  <li><img class="skillsIcons" src="../images/skills/commun.svg" alt="Comunicação assertiva"><p>Comunicação assertiva</p></li>
                 </ul>
               </div>
             </section>
@@ -57,7 +58,7 @@
         <section class="" id="activities">
             <h2>Atividades e projetos</h2>
             <ul id="projects">
-                <li>
+                <li class="project">
                     <h3>Objetivos e metas</h3>
                     <ul class="techSkillsUsed">
                         <li>Scratch</li>
@@ -66,11 +67,12 @@
                         <li>Comunicação assertiva</li>
                         <li>Trabalho em equipe</li>
                     </ul>
-                    <img class="projectImg" src="../images/scratch.png" alt="">
-                    <button><a href="https://scratch.mit.edu/projects/1051481991/">Link do projeto</a></button>
-                    <button><a href="scratch.html">Saber mais</a></button>
+                     <a href="scratch.html"><img class="projectImg" src="../images/projects/scratch.png" alt="foto do projeto"></a>
+                    <div id="links">
+                        <a href="https://scratch.mit.edu/projects/1051481991/">Link do projeto</a>
+                     </div>
                 </li>
-                <li>
+                <li class="project">
                     <h3>Livraria do Tempo</h3>
                     <ul class="techSkillsUsed">
                         <li>HTML5</li>
@@ -83,11 +85,12 @@
                         <li>Trabalho em equipe</li>
                         <li>Escuta empática</li>
                     </ul>
-                    <img class="projectImg" src="../images/livraria.png" alt="">
-                    <button><a href="https://github.com/jhulyanne/reiziger-pastEurotravels">Link do projeto</a></button>
-                    <button><a href="scratch.html">Saber mais</a></button>
+                    <a href="livraria.html"><img class="projectImg" src="../images/projects/livraria.png" alt="foto do projeto"></a>
+                    <div id="links">
+                        <a href="https://github.com/jhulyanne/reiziger-pastEurotravels">Link do projeto</a>
+                     </div>
                 </li>
-                <li>
+                <li class="project">
                     <h3>Reiziger</h3>
                     <ul class="techSkillsUsed">
                         <li>HTML5</li>
@@ -97,11 +100,10 @@
                         <li>Paciência</li>
                         <li>Criatividade</li>
                     </ul>
-                    <img class="projectImg" src="../images/reiziger.png" alt="">
-                    <button><a href="https://github.com/jhulyanne/reiziger-pastEurotravels">Link do projeto</a></button>
-                    <button><a href="scratch.html">Saber mais</a></button>
+                    <a href="reiziger.html"><img class="projectImg" src="../images/projects/reiziger.png" alt="foto do projeto"></a>
+                    <a href="https://github.com/jhulyanne/reiziger-pastEurotravels">Link do projeto</a>
                 </li>
-                <li>
+                <li class="project">
                     <h3>Lista de livros</h3>
                     <ul class="techSkillsUsed">
                         <li>HTML5</li>
@@ -110,46 +112,44 @@
                     <ul class="softSkillsUsed">
                         <li>Criatividade</li>
                     </ul>
-                    <img class="projectImg" src="../images/listaLivros.png" alt="">
-                    <button><a href="https://github.com/jhulyanne/atividades.assincronas-pda/tree/main/A5-adaptando">Link do projeto</a></button>
-                    <button><a href="livros.html">Saber mais</a></button>
+                    <a href="livros.html"><img class="projectImg" src="../images/projects/listaLivros.png" alt="foto do projeto"></a>
+                    <a href="https://github.com/jhulyanne/atividades.assincronas-pda/tree/main/A5-adaptando">Link do projeto</a>
                 </li>
             </section>
-        <section class="" id="">outras atividades</section>
-        <button id="backToTop"><a href="#top"><img class="imgUp" src="../images/up.svg" alt=""></a></button>
+        <button id="backToTop"><a href="#top"><img class="imgUp" src="../images/icons/up.svg" alt=""></a></button>
     </main>
     <footer>
         <ul>
-            <li><button><a href="https://github.com/jhulyanne"><img src="../images/github.svg" alt="github"></a></button></li>
-            <li><button><a href="https://www.linkedin.com/in/jhulyanne-oliveira/"><img src="../images/linkedin.svg" alt="linkedin"></a></button></li>
-            <li><button><a href="https://www.instagram.com/jhulyanneo/"><img src="../images/instagram.svg" alt="instagram"></a></button></li>
-            <li><button><a href="https://wa.me/5521979756387"><img src="../images/whatsapp.svg" alt="whatsapp"></a></button></li>
+            <li><button><a href="https://github.com/jhulyanne"><img src="../images/icons/github.svg" alt="github"></a></button></li>
+            <li><button><a href="https://www.linkedin.com/in/jhulyanne-oliveira/"><img src="../images/icons/linkedin.svg" alt="linkedin"></a></button></li>
+            <li><button><a href="https://www.instagram.com/jhulyanneo/"><img src="../images/icons/instagram.svg" alt="instagram"></a></button></li>
+            <li><button><a href="https://wa.me/5521979756387"><img src="../images/icons/whatsapp.svg" alt="whatsapp"></a></button></li>
         </ul>
-        <a href="index.html"><img class="logo" src="../images/logo.svg" alt=""></a>
+        <a href="index.html"><img class="logo" src="../images/icons/logo.svg" alt="logo"></a>
     </footer>
 </body>
 </html>
 
 
 <!-- * <h1> até <h6>
-* <img>
+* <img> OK
 * <svg>
-* <p>
-* <br>
-* <strong>
+* <p> OK
+* <br> OK
+* <strong> OK
 * <col>
-* <div>
-* <footer>
-* <a>
-* <li>
-* <ul>
-* <ol>
-* <input>
-* <span>
-* <th>
-* <td>
-* <tr>
-* <button>
-* <form>
-* <nav>
-* <section> -->
+* <div> OK
+* <footer> OK
+* <a> OK
+* <li> 
+* <ul> 
+* <ol> 
+* <input> 
+* <span> 
+* <th> 
+* <td> 
+* <tr> 
+* <button> OK
+* <form> 
+* <nav> OK
+* <section> OK

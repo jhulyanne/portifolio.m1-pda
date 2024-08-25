@@ -15,10 +15,6 @@
     }
 }
 
-/* #1F1C2F
-#353344
-#4c4959 */
-
 nav {
     background-color: #1F1C2F;
     position: fixed;
@@ -110,7 +106,6 @@ header {
 main {
     background-color: #4c4959;
     color: #e8eef8;
-    padding: 5%;
     text-align: center;
 
     h2 {
@@ -176,20 +171,90 @@ main {
     }
 
     #activities {
+        padding-bottom: 5rem;
+
+        #projects {
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);    
+        }
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5rem 2rem;
+
+            h3 {
+                padding-bottom: 1rem;
+            }
+
+            .techSkillsUsed {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                padding-bottom: 10px;
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    background-color: #e8863b;
+                    height: 2rem;
+                    width: 7rem;
+                }
+            
+            }
+    
+            .softSkillsUsed {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                padding-bottom: 10px;
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    background-color: #e8863b;
+                    height: 2rem;
+                    width: 12rem;
+                }
+            }
+        }
         
 
-
+       
 
         
         .projectImg {
             height: 15rem;
             width: auto;
+            padding-bottom: 10px;
         }
 
         .projectImg:hover {
             height: 20rem;
             width: 40rem;
         }
+
+            a {
+                color: white;
+                font-size: 1.5rem;
+                text-decoration: none;
+            }
+
+            a:hover { 
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
     }
 }
 
