@@ -1,6 +1,6 @@
 # Meu portifólio
 ## Mini projeto - M1
-Este é um projeto do curso Desenvolvedor Full-Stack do [Programadores do amanhã](https://programadoresdoamanha.org/).
+(!) Este é um projeto do curso **Desenvolvedor Full-Stack** do [Programadores do amanhã](https://programadoresdoamanha.org/).
 
 ### Utilitários:
 - [Figma](https://www.figma.com/design/Xtzj3jXLwnIWty31jyk9yM/Untitled?node-id=0-1&t=KHlF6HicRKpIs0Qw-0)
