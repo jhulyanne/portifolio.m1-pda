@@ -1,6 +1,8 @@
 # Meu portifólio
 ## Mini projeto - M1
-(!) Este é um projeto do curso **Desenvolvedor Full-Stack** do [Programadores do amanhã](https://programadoresdoamanha.org/).
+### - Este é um projeto do curso **Desenvolvedor Full-Stack** do [Programadores do amanhã](https://programadoresdoamanha.org/).
+
+OBS: por motivos de segurança, o link para o WhatsApp, localizado no footer, irá te direcionar para um número fictício.
 
 ### Utilitários:
 - [Figma](https://www.figma.com/design/Xtzj3jXLwnIWty31jyk9yM/Untitled?node-id=0-1&t=KHlF6HicRKpIs0Qw-0)
